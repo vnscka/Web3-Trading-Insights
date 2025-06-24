@@ -12,8 +12,8 @@ In the volatile world of crypto trading, understanding how market psychology (se
 ## Data Sources
 
 Two primary datasets were utilized:
-1.  **Bitcoin Market Sentiment Data (`fear_greed_index.csv`):** Contains daily classifications of market sentiment (e.g., Fear, Greed, Extreme Greed) with corresponding sentiment values.
-2.  **Historical Trader Data (`historical_data.csv`):** Comprehensive dataset including individual trade details such as `account`, `execution price`, `size`, `side`, `closedPnL`, and timestamps.
+1.  **Bitcoin Market Sentiment Data (`fear_greed_index.csv`):** Contains daily classifications of market sentiment (e.g., Fear, Greed, Extreme Greed) with corresponding sentiment values. - https://drive.google.com/file/d/1PgQC0tO8XN-wqkNyghWc_-mnrYv_nhSf/view?usp=sharing
+2.  **Historical Trader Data (`historical_data.csv`):** Comprehensive dataset including individual trade details such as `account`, `execution price`, `size`, `side`, `closedPnL`, and timestamps. - https://drive.google.com/file/d/1IAfLZwu6rJzyWKgBToqwSmmVYU6VbjVs/view?usp=sharing
 
 ## Methodology
 
@@ -70,7 +70,7 @@ Our analysis revealed significant patterns that can inform smarter trading strat
     git clone [https://github.com/vnscka/Web3-Trading-Insights.git](https://github.com/vnscka/Web3-Trading-Insights.git)
     cd Web3-Trading-Insights
     ```
-2.  **Place Data:** Ensure `fear_greed_index.csv` and `historical_data.csv` are placed directly in the root.
+2.  **Place Data:** Ensure `fear_greed_index.csv` and `historical_data.csv` are placed directly in the root after downloading them.
 3.  **Install Dependencies:**
     ```bash
     pip install pandas matplotlib seaborn
